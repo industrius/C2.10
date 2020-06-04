@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    color: rgb(0, 100, 180);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button{
+    min-width: 160px;
+    height: 51px;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: solid;
+    color: rgb(0, 100, 180);
+    border-color: rgb(0, 100, 180);
+    border-width: 2px;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: bisque;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 60vw;
+    text-align: center;
+}
+
+.voting-form{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.score{
+    display: flex;
+    justify-content: space-around;
+}
+
+.progress-bar{
+    max-width: 160px;
+    height: 100%; 
+    height: 50px;
+    background: #ccc;
+}
+
+.hide{
+    display: none;
+}
+
